@@ -87,3 +87,11 @@ def number_to_short_month_name(num)
       return "Dec"
     end
 end
+
+def vol_cube(num)
+ return num ** 3
+end
+
+def vol_sphere(radius)
+  return ((4.0/3.0) * Math::PI * (radius ** 3)).round(1)
+end
