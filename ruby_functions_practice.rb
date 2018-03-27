@@ -95,3 +95,7 @@ end
 def vol_sphere(radius)
   return ((4.0/3.0) * Math::PI * (radius ** 3)).round(1)
 end
+
+def temp_conversion(num)
+  return ((num - 32) * (5.0/9.0)).round(1)
+end
