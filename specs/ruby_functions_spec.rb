@@ -1,4 +1,5 @@
 require( 'minitest/autorun' )
+require( "minitest/rg")
 require_relative( '../ruby_functions_practice' )
 
 class Functions_Practice < MiniTest::Test
